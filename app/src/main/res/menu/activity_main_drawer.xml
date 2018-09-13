@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/online"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/ndRecipe"
+            android:icon="@drawable/ic_recipe_sm"
+            android:title="Receitas" />
+        <item
+            android:id="@+id/ndGuides"
+            android:icon="@drawable/ic_guide_sm"
+            android:title="Guias" />
+        <item
+            android:id="@+id/ndWorkers"
+            android:icon="@drawable/ic_workers_sm"
+            android:title="Prestadores de Serviços" />
+    </group>
+    <group android:id="@+id/offline">
+        <item
+            android:id="@+id/ndShopping"
+            android:icon="@drawable/ic_shoppinglist_sm"
+            android:title="Lista de Compras" />
+        <item
+            android:id="@+id/ndSavedContent"
+            android:icon="@drawable/ic_document_sm"
+            android:title="@string/stSavedContent"/>
+    </group>
+    <group>
+        <item
+            android:id="@+id/ndPersonal"
+            android:icon="@drawable/ic_user_sm"
+            android:title="Meus Dados" />
+        <item
+            android:id="@+id/ndConfig"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configurações" />
+        <item
+            android:id="@+id/ndExit"
+            android:icon="@drawable/ic_exit_sm"
+            android:title="Sair" />
+    </group>
+
+</menu>

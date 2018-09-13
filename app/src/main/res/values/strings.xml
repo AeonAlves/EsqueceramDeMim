@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name" translatable="false">Esqueceram De Mim</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="welcome">
+        Bem-Vindo ao aplicativo de gestão doméstica <bold>Esqueceram de mim</bold>.
+    </string>
+    <string name="guide">
+        Utilize os botões abaixo para navegar, ou selecione a partir do menu lateral a opção desejada.
+    </string>
+    <string name="stRecipe">Receitas</string>
+    <string name="stGuide">Guias</string>
+    <string name="stShopping">Lista de Compras</string>
+    <string name="stWorkers">Prestadores</string>
+    <string name="stData">Meus Dados</string>
+    <string name="stSavedContent">Conteúdo Salvo</string>
+    <string name="stConfig">Configurações</string>
+    <string name="stExit">Sair</string>
+    <string name="stAbout">Sobre</string>
+    <string name="stMenu">Menu</string>
+    <string name="stPubType">Tipo de publicação</string>
+    <string name="stPubTitle">Titulo da publicação</string>
+    <string name="stPubContent">Conteúdo da publicação: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus.
+        Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.</string>
+    <string name="splash">splashscreen</string>
+    <string name="title_activity_login">Login</string>
+    <string name="btLogin">Login</string>
+    <string name="btSignup">Criar conta</string>
+    <string name="btlater">Logar depois</string>
+    <string name="btAcessar">Acessar</string>
+    <string name="btFacebook">facebook</string>
+    <string name="dadosObr">Dados Obrigatórios</string>
+    <string name="dadosOp">Dados Opcionais</string>
+    <string name="nome">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="repEmail">Repetir E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="repSenha">Repetir Senha</string>
+
+
+</resources>
