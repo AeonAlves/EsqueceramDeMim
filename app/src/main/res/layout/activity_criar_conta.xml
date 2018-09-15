@@ -3,20 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.tmdb.esqueceramdemim.views.CriarConta"
+    tools:conhint="com.tmdb.esqueceramdemim.views.CadastroView"
     android:orientation="vertical"
     android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
-    android:padding="20dp">
+    android:padding="20dp"
+    android:isScrollContainer="true">
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/dadosObr"
+        android:hint="@string/ddLogin"
         android:textSize="20sp"
         android:textColor="@color/text_green"
         android:typeface="normal"
-        android:fontFamily="@font/aclonica"
-        />
+        android:fontFamily="@font/aclonica"/>
 
     <Space
         android:layout_width="0dp"
@@ -28,7 +29,7 @@
         android:id="@+id/etName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/nome"
+        android:hint="@string/dNome"
         android:textColor="#999999"/>
     <Space
         android:layout_width="0dp"
@@ -40,7 +41,7 @@
         android:id="@+id/etEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/email"
+        android:hint="@string/dEmail"
         android:textColor="#999999"/>
     <Space
         android:layout_width="0dp"
@@ -52,7 +53,7 @@
         android:id="@+id/etRemail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/repEmail"
+        android:hint="@string/dRepEmail"
         android:textColor="#999999"/>
     <Space
         android:layout_width="0dp"
@@ -64,7 +65,7 @@
         android:id="@+id/etSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/senha"
+        android:hint="@string/dSenha"
         android:textColor="#999999"/>
     <Space
         android:layout_width="0dp"
@@ -76,12 +77,123 @@
         android:id="@+id/etResenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/repSenha"
+        android:hint="@string/dRepSenha"
+        android:textColor="#999999" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_weight="1" >
+    </Space>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/ddEnd"
+        android:textSize="20sp"
+        android:textColor="@color/text_green"
+        android:typeface="normal"
+        android:fontFamily="@font/aclonica"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" >
+    </Space>
+
+    <EditText
+        android:id="@+id/etEndCons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dCEnd"
+        android:textColor="#999999"/>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" >
+    </Space>
+
+    <EditText
+        android:id="@+id/etEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dEnd"
+        android:textColor="#999999"/>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" >
+    </Space>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etNum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:hint="@string/dNumero"
+            android:textColor="#999999"/>
+
+        <EditText
+            android:id="@+id/etComp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:hint="@string/dComp"
+            android:textColor="#999999" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/etBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dBairro"
         android:textColor="#999999" />
     <Space
         android:layout_width="0dp"
         android:layout_height="1dp"
-        android:layout_weight="15" >
+        android:layout_weight="1" >
     </Space>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etCidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:hint="@string/dCidade"
+            android:textColor="#999999"/>
+
+        <EditText
+            android:id="@+id/etUF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_margin="1dp"
+            android:hint="@string/dUF"
+            android:textColor="#999999"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/roundedbutton">
+
+    </Button>
 </LinearLayout>

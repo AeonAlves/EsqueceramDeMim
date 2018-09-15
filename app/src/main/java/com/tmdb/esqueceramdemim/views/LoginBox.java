@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.tmdb.esqueceramdemim.R;
 import com.tmdb.esqueceramdemim.viewmodels.LoginViewModel;
 
 /**

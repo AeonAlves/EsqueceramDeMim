@@ -12,7 +12,6 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 
 import com.tmdb.esqueceramdemim.R;
-import com.tmdb.esqueceramdemim.viewmodels.LoginViewModel;
 
 public class LoginPage extends AppCompatActivity {
 
@@ -57,7 +56,7 @@ public class LoginPage extends AppCompatActivity {
         btSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginPage.this, CriarConta.class);
+                Intent intent = new Intent(LoginPage.this, CadastroView.class);
                 startActivity(intent);
 
             }

@@ -1,4 +1,5 @@
 <resources>
+    <string name="google_maps_key">AIzaSyB2q1pdDqQj07FBpa_4TWBKjlKKYc_UgBM</string>
     <string name="app_name" translatable="false">Esqueceram De Mim</string>
 
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
@@ -34,13 +35,19 @@
     <string name="btlater">Logar depois</string>
     <string name="btAcessar">Acessar</string>
     <string name="btFacebook">facebook</string>
-    <string name="dadosObr">Dados Obrigatórios</string>
-    <string name="dadosOp">Dados Opcionais</string>
-    <string name="nome">Nome</string>
-    <string name="email">E-mail</string>
-    <string name="repEmail">Repetir E-mail</string>
-    <string name="senha">Senha</string>
-    <string name="repSenha">Repetir Senha</string>
-
+    <string name="ddLogin">Dados de login</string>
+    <string name="dNome">Nome</string>
+    <string name="dEmail">E-mail</string>
+    <string name="dRepEmail">Repetir E-mail</string>
+    <string name="dSenha">Senha</string>
+    <string name="dRepSenha">Repetir Senha</string>
+    <string name="ddEnd">Dados do Endereço</string>
+    <string name="dCEnd">Digite seu CEP ou endereço</string>
+    <string name="dEnd">Endereço</string>
+    <string name="dNumero">Numero</string>
+    <string name="dComp">Complemento</string>
+    <string name="dBairro">Bairro</string>
+    <string name="dCidade">Cidade</string>
+    <string name="dUF">UF</string>
 
 </resources>

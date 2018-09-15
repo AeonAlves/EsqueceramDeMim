@@ -3,7 +3,9 @@ package com.tmdb.esqueceramdemim.views;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Toast;
 
 import com.tmdb.esqueceramdemim.R;
 
@@ -20,14 +22,21 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashscreen);
 
-        new Handler().postDelayed(new Runnable(){
-            @Override
-            public void run(){
-                Intent i = new Intent(SplashScreen.this, LoginPage.class);
-                startActivity(i);
+        try{
+            new Handler().postDelayed(new Runnable(){
+                @Override
+                public void run(){
+                    Intent i = new Intent(SplashScreen.this, LoginPage.class);
+                    startActivity(i);
 
-                finish();
-            }
-        }, splash_time_out);
+                    finish();
+                }
+            }, splash_time_out);
+        } catch (Exception ex) {
+            String error = ex.toString();
+            Toast toast = Toast.makeText(getApplicationContext(), error, Toast.LENGTH_LONG);
+            toast.show();
+        }
+
     }
 }
