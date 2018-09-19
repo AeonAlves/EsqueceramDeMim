@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.ndConfig) {
 
         } else if (id == R.id.ndExit) {
-            Intent intent = new Intent(MainActivity.this, LoginPage.class);
+            Intent intent = new Intent(MainActivity.this, LoginView.class);
             startActivity(intent);
         }
 

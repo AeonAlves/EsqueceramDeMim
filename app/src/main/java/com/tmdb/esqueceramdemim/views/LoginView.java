@@ -13,7 +13,7 @@ import android.widget.FrameLayout;
 
 import com.tmdb.esqueceramdemim.R;
 
-public class LoginPage extends AppCompatActivity {
+public class LoginView extends AppCompatActivity {
 
     private LoginBox loginBox;
     private Button btLogin;
@@ -56,7 +56,7 @@ public class LoginPage extends AppCompatActivity {
         btSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginPage.this, CadastroView.class);
+                Intent intent = new Intent(LoginView.this, CadastroView.class);
                 startActivity(intent);
 
             }
@@ -65,7 +65,7 @@ public class LoginPage extends AppCompatActivity {
         btLater.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginPage.this, MainActivity.class);
+                Intent intent = new Intent(LoginView.this, MainActivity.class);
                 startActivity(intent);
             }
         });

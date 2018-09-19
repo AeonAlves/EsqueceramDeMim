@@ -5,6 +5,9 @@ import android.support.annotation.NonNull;
 public class ServicosModel {
 
     @NonNull
+    private int mId;
+
+    @NonNull
     private String mPrestador;
 
     @NonNull
@@ -22,6 +25,15 @@ public class ServicosModel {
     private String mImagem;
 
     private int mAvaliacao;
+
+    @NonNull
+    public int getmId() {
+        return mId;
+    }
+
+    public void setmId(@NonNull int mId) {
+        this.mId = mId;
+    }
 
     @NonNull
     public String getmPrestador() {

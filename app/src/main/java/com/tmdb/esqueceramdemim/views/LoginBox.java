@@ -46,7 +46,7 @@ public class LoginBox extends Fragment {
             public void onClick(View view) {
                 v.setVisibility(View.INVISIBLE);
                 Intent intent = new Intent();
-                intent.setClass(getActivity(), LoginPage.class);
+                intent.setClass(getActivity(), LoginView.class);
                 getActivity().startActivity(intent);
 
 
