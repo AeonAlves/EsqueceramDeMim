@@ -41,7 +41,10 @@
         <activity
             android:name=".views.CadastroView"
             android:label="Criar Conta" />
-        <activity android:name=".views.ReceitasView"></activity>
+        <activity android:name=".views.ReceitasView" />
+        <activity android:name=".views.ReceitasListaView" />
+        <activity android:name=".views.GuiasListaView" />
+        <activity android:name=".views.ServicosListaView"></activity>
     </application>
 
 </manifest>

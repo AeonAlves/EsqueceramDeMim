@@ -17,9 +17,6 @@ public class ServicosModel {
     private String mDescricao;
 
     @NonNull
-    private int mDDD;
-
-    @NonNull
     private String mTelefone;
 
     private String mImagem;
@@ -60,15 +57,6 @@ public class ServicosModel {
 
     public void setmDescricao(@NonNull String mDescricao) {
         this.mDescricao = mDescricao;
-    }
-
-    @NonNull
-    public int getmDDD() {
-        return mDDD;
-    }
-
-    public void setmDDD(@NonNull int mDDD) {
-        this.mDDD = mDDD;
     }
 
     @NonNull

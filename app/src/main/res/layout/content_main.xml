@@ -25,15 +25,16 @@
             android:id="@+id/btRecipes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_recipe_md" />
+            android:background="@drawable/ic_recipe_md"/>
 
         <Space
-            android:layout_width="15dp"
+            android:layout_width="30dp"
             android:layout_height="1dp"
             android:layout_weight="1" >
         </Space>
 
         <Button
+            android:id="@+id/btGuides"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_guide_md"/>
@@ -53,19 +54,11 @@
         android:padding="15dp">
 
         <Button
+            android:id="@+id/btWorkers"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_workers_md"/>
-        <Space
-            android:layout_width="15dp"
-            android:layout_height="1dp"
-            android:layout_weight="1" >
-        </Space>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/ic_list_md"/>
     </LinearLayout>
 
     <Space

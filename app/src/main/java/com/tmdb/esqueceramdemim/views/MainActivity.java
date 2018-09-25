@@ -10,11 +10,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 import com.tmdb.esqueceramdemim.R;
+import com.tmdb.esqueceramdemim.viewmodels.GuiasViewModel;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    private Button notRec;
+    private Button notServ;
+    private Button notGui;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +39,37 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        notRec = findViewById(R.id.btRecipes);
+
+        notRec.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent();
+                i.setClass(MainActivity.this, ReceitasListaView.class);
+                startActivity(i);
+            }
+        });
+
+        notGui = findViewById(R.id.btGuides);
+
+        notGui.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent();
+                i.setClass(MainActivity.this, GuiasListaView.class);
+                startActivity(i);
+            }
+        });
+
+        notServ = findViewById(R.id.btWorkers);
+        notServ.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent();
+                i.setClass(MainActivity.this, ServicosListaView.class);
+                startActivity(i);
+            }
+        });
     }
 
     @Override
@@ -73,7 +111,8 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.ndRecipe) {
-            // Handle the camera action
+            Intent intent = new Intent(MainActivity.this, ReceitasView.class);
+            startActivity(intent);
         } else if (id == R.id.ndGuides) {
 
         } else if (id == R.id.ndShopping) {

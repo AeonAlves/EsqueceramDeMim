@@ -13,6 +13,9 @@ public class ListaDeComprasModel {
     private Date mData;
 
     @NonNull
+    private float mTotal;
+
+    @NonNull
     private String mItem;
 
     @NonNull
@@ -39,6 +42,15 @@ public class ListaDeComprasModel {
 
     public void setmData(@NonNull Date mData) {
         this.mData = mData;
+    }
+
+    @NonNull
+    public float getmTotal() {
+        return mTotal;
+    }
+
+    public void setmTotal(@NonNull float mTotal) {
+        this.mTotal = mTotal;
     }
 
     @NonNull

@@ -11,8 +11,6 @@ public class GuiasModel {
     @NonNull
     private String mConteudo;
 
-    private String mImagem;
-
     private String mUrlVideo;
 
     @NonNull
@@ -22,14 +20,6 @@ public class GuiasModel {
 
     public void setmId(@NonNull int mId) {
         this.mId = mId;
-    }
-
-    public String getmImagem() {
-        return mImagem;
-    }
-
-    public void setmImagem(String mImagem) {
-        this.mImagem = mImagem;
     }
 
     @NonNull

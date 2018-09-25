@@ -1,5 +1,6 @@
 package com.tmdb.esqueceramdemim.model;
 
+import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 
 public class ReceitaModel {
@@ -10,7 +11,10 @@ public class ReceitaModel {
     @NonNull
     private String mConteudo;
 
-    private String mImagem;
+    @NonNull
+    private String mDificuldade;
+
+    private int mImagem;
 
     private String mUrlVideo;
 
@@ -21,14 +25,6 @@ public class ReceitaModel {
 
     public void setmId(@NonNull int mId) {
         this.mId = mId;
-    }
-
-    public String getmImagem() {
-        return mImagem;
-    }
-
-    public void setmImagem(String mImagem) {
-        this.mImagem = mImagem;
     }
 
     @NonNull
@@ -47,6 +43,23 @@ public class ReceitaModel {
 
     public void setmConteudo(@NonNull String mConteudo) {
         this.mConteudo = mConteudo;
+    }
+
+    @NonNull
+    public String getmDificuldade() {
+        return mDificuldade;
+    }
+
+    public void setmDificuldade(@NonNull String mDificuldade) {
+        this.mDificuldade = mDificuldade;
+    }
+
+    public int getmImagem() {
+        return mImagem;
+    }
+
+    public void setmImagem(int mImagem) {
+        this.mImagem = mImagem;
     }
 
     public String getmUrlVideo() {

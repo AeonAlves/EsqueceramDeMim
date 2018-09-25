@@ -4,12 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.ReceitasView">
+    tools:context=".views.ServicosListaView">
 
-    <TextView
-        android:id="@+id/wvRec"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </TextView>
 </android.support.constraint.ConstraintLayout>

@@ -35,9 +35,8 @@ public class ReceitaAdapter extends ArrayAdapter<ReceitaModel> {
         {
             LayoutInflater inflater = ((Activity) context).getLayoutInflater();
             convertView = inflater.inflate(R.layout.lista_receitas, parent, false);
-            //view = LayoutInflater.from(context).inflate(R.layout.layout_lista, parent, false);
             holder = new ViewHolder();
-            holder.imagem = (TextView) convertView.findViewById(R.id.rImagem);
+            holder.imagem = (ImageView) convertView.findViewById(R.id.rImagem);
             holder.titulo = (TextView) convertView.findViewById(R.id.rTitulo);
 
             convertView.setTag(holder);
@@ -47,7 +46,7 @@ public class ReceitaAdapter extends ArrayAdapter<ReceitaModel> {
             holder = (ViewHolder)convertView.getTag();
         }
         ReceitaModel rl = (ReceitaModel) getItem(position);
-        holder.imagem.setText(rl.getmImagem());
+        holder.imagem.setImageResource(rl.getmImagem());
         holder.titulo.setText(rl.getmTitulo());
 
         return convertView;
@@ -55,6 +54,6 @@ public class ReceitaAdapter extends ArrayAdapter<ReceitaModel> {
 
     private static class ViewHolder {
         TextView titulo;
-        TextView imagem;
+        ImageView imagem;
     }
 }
