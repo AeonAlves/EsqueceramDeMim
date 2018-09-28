@@ -5,13 +5,22 @@ import android.support.annotation.NonNull;
 public class GuiasModel {
 
     @NonNull
+    private int mId;
+    @NonNull
     private String mTitulo;
     @NonNull
     private String mConteudo;
 
-    private String mImagem;
-
     private String mUrlVideo;
+
+    @NonNull
+    public int getmId() {
+        return mId;
+    }
+
+    public void setmId(@NonNull int mId) {
+        this.mId = mId;
+    }
 
     @NonNull
     public String getmTitulo() {

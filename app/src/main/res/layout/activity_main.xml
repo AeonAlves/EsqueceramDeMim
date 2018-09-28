@@ -8,11 +8,6 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
-    <data>
-        <variable
-            android:name="MainActivity"/>
-    </data>
-
     <include
         layout="@layout/app_bar_main"
         android:layout_width="match_parent"

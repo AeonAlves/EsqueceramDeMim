@@ -5,6 +5,9 @@ import android.support.annotation.NonNull;
 public class ServicosModel {
 
     @NonNull
+    private int mId;
+
+    @NonNull
     private String mPrestador;
 
     @NonNull
@@ -14,14 +17,20 @@ public class ServicosModel {
     private String mDescricao;
 
     @NonNull
-    private int mDDD;
-
-    @NonNull
     private String mTelefone;
 
     private String mImagem;
 
     private int mAvaliacao;
+
+    @NonNull
+    public int getmId() {
+        return mId;
+    }
+
+    public void setmId(@NonNull int mId) {
+        this.mId = mId;
+    }
 
     @NonNull
     public String getmPrestador() {
@@ -48,15 +57,6 @@ public class ServicosModel {
 
     public void setmDescricao(@NonNull String mDescricao) {
         this.mDescricao = mDescricao;
-    }
-
-    @NonNull
-    public int getmDDD() {
-        return mDDD;
-    }
-
-    public void setmDDD(@NonNull int mDDD) {
-        this.mDDD = mDDD;
     }
 
     @NonNull

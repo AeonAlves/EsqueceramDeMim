@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.tmdb.esqueceramdemim.R;
 import com.tmdb.esqueceramdemim.viewmodels.LoginViewModel;
 
 /**
@@ -45,7 +46,7 @@ public class LoginBox extends Fragment {
             public void onClick(View view) {
                 v.setVisibility(View.INVISIBLE);
                 Intent intent = new Intent();
-                intent.setClass(getActivity(), LoginPage.class);
+                intent.setClass(getActivity(), LoginView.class);
                 getActivity().startActivity(intent);
 
 

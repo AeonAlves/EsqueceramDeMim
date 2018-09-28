@@ -1,4 +1,5 @@
 <resources>
+    <string name="google_maps_key">AIzaSyB2q1pdDqQj07FBpa_4TWBKjlKKYc_UgBM</string>
     <string name="app_name" translatable="false">Esqueceram De Mim</string>
 
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
@@ -34,13 +35,69 @@
     <string name="btlater">Logar depois</string>
     <string name="btAcessar">Acessar</string>
     <string name="btFacebook">facebook</string>
-    <string name="dadosObr">Dados Obrigatórios</string>
-    <string name="dadosOp">Dados Opcionais</string>
-    <string name="nome">Nome</string>
-    <string name="email">E-mail</string>
-    <string name="repEmail">Repetir E-mail</string>
-    <string name="senha">Senha</string>
-    <string name="repSenha">Repetir Senha</string>
+    <string name="ddLogin">Dados de login</string>
+    <string name="dNome">Nome</string>
+    <string name="dEmail">E-mail</string>
+    <string name="dRepEmail">Repetir E-mail</string>
+    <string name="dSenha">Senha</string>
+    <string name="dRepSenha">Repetir Senha</string>
+    <string name="ddEnd">Dados do Endereço</string>
+    <string name="dCEnd">Digite seu CEP ou endereço</string>
+    <string name="dEnd">Endereço</string>
+    <string name="dNumero">Numero</string>
+    <string name="dComp">Complemento</string>
+    <string name="dBairro">Bairro</string>
+    <string name="dCidade">Cidade</string>
+    <string name="dUF">UF</string>
 
+    <string-array name="estados">
+        <item>Selecione</item>
+        <item>AC</item>
+        <item>AL</item>
+        <item>AP</item>
+        <item>AM</item>
+        <item>BA</item>
+        <item>CE</item>
+        <item>DF</item>
+        <item>ES</item>
+        <item>GO</item>
+        <item>MA</item>
+        <item>MT</item>
+        <item>MS</item>
+        <item>MG</item>
+        <item>PA</item>
+        <item>PB</item>
+        <item>PR</item>
+        <item>PE</item>
+        <item>PI</item>
+        <item>RJ</item>
+        <item>RN</item>
+        <item>RS</item>
+        <item>RO</item>
+        <item>RR</item>
+        <item>SC</item>
+        <item>SP</item>
+        <item>SE</item>
+        <item>TO</item>
+    </string-array>
+
+    <string name="recarroz">ARROZ SOLTINHO
+
+INGREDIENTES
+
+Agua
+Arroz
+Alho
+Cebola
+Sal
+Oleo
+MODO DE PREPARO
+Lave bem uma xícara (aprox. 150g) de arroz, deixe escorrer bem;
+Em uma panela pequena coloque 2 colheres de sopa de oleo e doure o alho e a cebola picados;
+Acrescente o arroz na panela e deixe fritar por alguns segundos;
+Abaixe o fogo, acrescente a primeira xícara de água e deixe ferver (com a panela semi tampada), mexendo de vez em quando;.
+Quando estiver quase secando abra a panela e acrescente a segunda xícara de água;
+Assim que secar desligue o fogo.
+RENDE: 4 PORÇÕES</string>
 
 </resources>

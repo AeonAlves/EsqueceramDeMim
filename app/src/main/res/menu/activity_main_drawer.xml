@@ -9,21 +9,21 @@
         <item
             android:id="@+id/ndRecipe"
             android:icon="@drawable/ic_recipe_sm"
-            android:title="Receitas" />
+            android:title="@string/stRecipe" />
         <item
             android:id="@+id/ndGuides"
             android:icon="@drawable/ic_guide_sm"
-            android:title="Guias" />
+            android:title="@string/stGuide" />
         <item
             android:id="@+id/ndWorkers"
             android:icon="@drawable/ic_workers_sm"
-            android:title="Prestadores de Serviços" />
+            android:title="@string/stWorkers" />
     </group>
     <group android:id="@+id/offline">
         <item
             android:id="@+id/ndShopping"
-            android:icon="@drawable/ic_shoppinglist_sm"
-            android:title="Lista de Compras" />
+            android:icon="@drawable/ic_list_sm"
+            android:title="@string/stShopping" />
         <item
             android:id="@+id/ndSavedContent"
             android:icon="@drawable/ic_document_sm"
@@ -33,15 +33,15 @@
         <item
             android:id="@+id/ndPersonal"
             android:icon="@drawable/ic_user_sm"
-            android:title="Meus Dados" />
+            android:title="@string/stData" />
         <item
             android:id="@+id/ndConfig"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Configurações" />
+            android:title="@string/stConfig" />
         <item
             android:id="@+id/ndExit"
             android:icon="@drawable/ic_exit_sm"
-            android:title="Sair" />
+            android:title="@string/stExit" />
     </group>
 
 </menu>

@@ -9,16 +9,16 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top"
         android:id="@+id/etEmail"
-        android:text="E-mail"
         android:textColor="#999999"
-        android:layout_margin="5dp"/>
+        android:layout_margin="5dp"
+        android:hint="@string/dEmail"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:id="@+id/etPassword"
-        android:text="Senha"
+        android:hint="@string/dSenha"
         android:textColor="#999999"
         android:layout_margin="5dp"
         android:inputType="numberPassword"/>
