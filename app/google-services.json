@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "181264611265",
+    "firebase_url": "https://groovy-facet-216513.firebaseio.com",
+    "project_id": "groovy-facet-216513",
+    "storage_bucket": "groovy-facet-216513.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181264611265:android:42c57c5127188769",
+        "android_client_info": {
+          "package_name": "com.tmdb.esqueceramdemim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181264611265-2jufuql2aple1nf4893mov5t82495ooe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tmdb.esqueceramdemim",
+            "certificate_hash": "0b5eea573f6cb427f2ca6e4d433a7bdcd09cfb35"
+          }
+        },
+        {
+          "client_id": "181264611265-fipruu73jf2f3mjfnkurcmd640rphm54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZsuYEdZ9-T__TZJLadzIAL0N2NBEJ7qo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181264611265-fipruu73jf2f3mjfnkurcmd640rphm54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
